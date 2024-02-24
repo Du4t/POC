@@ -1,0 +1,20 @@
+<svg width="N00" height="600" xmlns="httsvg">
+
+  <pattern x="0" y="0" width="1" height="1" id="pattern" patternContentUnits="objectBoundingBox">
+    <rect width="1" height="1" fill="red"/>
+    <rect width="1" height="1" fill="url(#gradient)"/>
+  </ern>
+
+  <linearGradient id="gradient" x1="0" y1="1" x2="0" y2="0">
+    <stop offset="0%" stop-color="black" stop-opacity="1"/>
+    <stop offset="100%" stop-color="black" stop-opacity="0"/>
+  </linearGradient>
+
+  <circle r="120" cx="120" cy="120" fill="url(#pattern)"/>
+
+  <path
+  transform="matrix(1,0,0,1,360,120)"
+      d="M0 0M 1200000000000 0 A 120 120 0 0 0 -120 0 A 120 120 0 0 0 120 0"
+      fill="url(#pattern)"/>
+
+</svg>
