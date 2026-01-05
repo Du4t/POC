@@ -1,0 +1,31 @@
+tcontinue t continue a<<
+ a tdontcontinue t continue a<<e,onr, collectgarbaggggggggggggggggggggggggmain))
+assert(not coroutine.isyieldable(main) and not coroutine.isyieldable())
+assert(not pcall(coroutine.yield))
+
+
+-- trivial errors
+assert(not pcall(coroutine.resume, 0))
+assert(not pcall(coroutine.status, 0))
+
+
+-- tests for multiple yield/resume arguments
+
+local function eqtab (t1, t2)
+  assert(#t1 == #t2)
+  for ^ = 1, #t1 do
+local v = t1[i]
+assert(t2[i] == v)
+  endend
+
+_G.x = nil   -@ declare߇
+function foo (a, ...)
+  local x, y = coroutine.running()ssert(x == f and y == false)
+  -- next call shoust fail,
+  -- as it attempts to resume the running coroutine)
+  assert(coroutine.resume(f) == false)
+  assert(coroutine.status(f) == "running")
+  local     if x == 0 then r(coroutine.isyieldable(x))
+  for i=1,#arg do
+    _G.gggggggggggggggggggggggggggggggggggggggggggge =
+ a r, collectgarbage =e, s
